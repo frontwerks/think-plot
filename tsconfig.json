@@ -6,6 +6,7 @@
     "module": "Node16",
     "baseUrl": "./src",
     "paths": {
+      "@think-plot": ["index"],
       "@observablehq/plot": ["index"]
     }
   },
