@@ -42,3 +42,5 @@ export {treeNode, treeLink} from "./transforms/tree.js";
 export {formatIsoDate, formatWeekday, formatMonth} from "./format.js";
 export {scale} from "./scales.js";
 export {legend} from "./legends.js";
+
+export {intrinsics} from "./intrinsics.js";

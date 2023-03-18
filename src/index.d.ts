@@ -51,3 +51,6 @@ export * from "./transforms/select.js";
 export * from "./transforms/stack.js";
 export * from "./transforms/tree.js";
 export * from "./transforms/window.js";
+
+export * from "./intrinsics.js";
+
