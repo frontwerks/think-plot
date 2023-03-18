@@ -1,6 +1,6 @@
-import * as Plot from "@observablehq/plot";
+import * as Plot from "think-plot";
 
 export async function shorthandGroupBarY() {
-  const gene = "AAAAGAGTGAAGATGCTGGAGACGAGTGAAGCATTCACTTTAGGGAAAGCGAGGCAAGAGCGTTTCAGAAGACGAAACCTGGTAGGTGCACTCACCACAG";
-  return Plot.barY(gene, Plot.groupX()).plot();
+    const gene = "AAAAGAGTGAAGATGCTGGAGACGAGTGAAGCATTCACTTTAGGGAAAGCGAGGCAAGAGCGTTTCAGAAGACGAAACCTGGTAGGTGCACTCACCACAG";
+    return Plot.barY(gene, Plot.groupX()).plot();
 }

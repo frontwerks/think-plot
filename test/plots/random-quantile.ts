@@ -1,10 +1,10 @@
-import * as Plot from "@observablehq/plot";
+import * as Plot from "think-plot";
 import * as d3 from "d3";
 
 export async function randomQuantile() {
-  const randomNormal = d3.randomNormal.source(d3.randomLcg(42))();
-  const randoms = Array.from({length: 300}, randomNormal);
-  return Plot.plot({
-    marks: [Plot.dotX(randoms, Plot.mapY("quantile", {y: randoms}))]
-  });
+    const randomNormal = d3.randomNormal.source(d3.randomLcg(42))();
+    const randoms = Array.from({length: 300}, randomNormal);
+    return Plot.plot({
+        marks: [Plot.dotX(randoms, Plot.mapY("quantile", {y: randoms}))]
+    });
 }

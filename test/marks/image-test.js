@@ -1,4 +1,4 @@
-import * as Plot from "@observablehq/plot";
+import * as Plot from "think-plot";
 import assert from "assert";
 
 it("image(undefined, {src}) has the expected defaults", () => {

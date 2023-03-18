@@ -1,4 +1,4 @@
-import * as Plot from "@observablehq/plot";
+import * as Plot from "think-plot";
 import {curveStep} from "d3";
 import assert from "assert";
 

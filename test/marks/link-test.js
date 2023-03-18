@@ -1,4 +1,4 @@
-import * as Plot from "@observablehq/plot";
+import * as Plot from "think-plot";
 import assert from "assert";
 
 it("link(data, options) has the expected defaults", () => {

@@ -1,10 +1,10 @@
-import * as Plot from "@observablehq/plot";
+import * as Plot from "think-plot";
 
 export async function emptyLegend() {
-  return Plot.plot({
-    color: {
-      legend: true // ignored because no color scale
-    },
-    marks: [Plot.frame()]
-  });
+    return Plot.plot({
+        color: {
+            legend: true // ignored because no color scale
+        },
+        marks: [Plot.frame()]
+    });
 }
